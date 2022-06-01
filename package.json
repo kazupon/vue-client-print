@@ -31,6 +31,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
@@ -56,9 +58,12 @@
     "@vitest/ui": "^0.12.9",
     "@vue/compiler-sfc": "^3.2.36",
     "@vue/test-utils": "^2.0.0-rc.18",
+    "@vuepress/plugin-git": "^2.0.0-beta.46",
+    "@vuepress/plugin-search": "^2.0.0-beta.46",
     "c8": "^7.11.3",
     "cz-conventional-changelog": "^3.0.1",
     "vite": "^2.9.9",
-    "vue": "^3.2.36"
+    "vue": "^3.2.36",
+    "vuepress": "^2.0.0-beta.46"
   }
 }
